@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>EMS</title>
+</head>
+<body>
+    <div id="root">
+        <div id="form">
+            <form id="form-elem">
+                <input type="text" name="name" placeholder="Employee Name">
+                <input type ="number" name="employeeId" placeholder="Employee ID">
+                <input type="number" name="salary" placeholder="Salary">
+                <input type="text" name="team" placeholder="team">
+                <select name="role">
+                    <option value="SDE">SDE</option>
+                    <option value="QA">QA</option>
+                    <option value="QA">PM</option>
+                </select>
+                <input type="text" name="company" placeholder="Company Name">
+                <button >Create Employee</button>
+            </form>
+        </div>
+        <div id="table">
+            <tabel>
+                <thead>
+                    <th>Name</th>
+                    <th>Id</th>
+                    <th>Salary</th>
+                    <th>Team</th>
+                    <th>Role</th>
+                    <th>Options</th>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </tabel>
+        </div>
+    </div>
+  <script src="index.js"></script>  
+</body>
+</html>
